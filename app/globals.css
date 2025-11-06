@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: var(--font-inter), sans-serif;
+  background: #f5f6fa;
+  color: #1b1f3b;
+}
+
+.font-display {
+  font-family: var(--font-playfair), "Playfair Display", serif;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(27, 31, 59, 0.2);
+  border-radius: 9999px;
+}
